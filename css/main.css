@@ -9,22 +9,22 @@ body {
 }
 
 /* HEADER - Menu */
-.menu {
-    background-color: #ff9a6c;
+.menu{
+    background-color: #FF9A6C;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px;
+    padding: 24px 80px;   
 }
 
 .menu nav a {
-    color: #fff;
+    color: #FFF;
     font-weight: 600;
     padding: 20px;
     text-decoration: none;
 }
 
-/* Fixar Menu- Topo */
+/* Fixar Menu - Topo */
 .menu {
     position: fixed;
     top: 0;
@@ -34,6 +34,7 @@ body {
 }
 
 /* Config da Seção INÍCIO */
+
 #inicio {
     display: flex;
     align-items: center;
@@ -48,22 +49,28 @@ h1, h2 {
     margin-top: 32px;
 }
 
+.conteudo {
+    margin-right: 150px;
+    text-align: justify;
+}
+
 .paragrafo {
     line-height: 150%;
+    margin-top: 28px;
     margin-bottom: 64px;
 }
 
 .botao {
-    background-color: #ff9a6c;
+    background-color: #FF9A6C;
     border-radius: 8px;
-    color: #fff;
+    color: #FFF;
     padding: 16px 32px;
     text-decoration: none;
 }
 
 .botao-transparente {
     background-color: transparent;
-    color: #ff725e;
+    color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
@@ -73,5 +80,51 @@ h1, h2 {
     bottom: -20px;
     left: 0;
     width: 100%;
-    z-index: -10px;
+    z-index: -10;
+}
+
+
+/* Config da Seção CLÍNICA */
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+ul {
+    margin: 16px 32px;
+    margin-bottom: 40px;
+   
+}
+
+li {
+    padding: 8px;
+}
+
+.paragrafo2 {
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.botao2 {
+    background-color: #ff9a6c;
+    border-radius: 8px;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.botao-transparente2 {
+    background-color: transparent;
+    color: #ff725e;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
 }
